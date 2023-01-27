@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -5,12 +9,12 @@
 
 
 /*body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    height: 98vh;
-    gap: 10px;
-correciones
+font-size: 16px;
+/*  display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(12, 1fr);
+height: 98vh;
+gap: 10px;
 }*/
 
 
@@ -46,15 +50,3 @@ header {
 ul li:hover a {
     padding-left: 50px;
 }
-
-
-/*.hola {
-    background-color: aqua;
-}*/
-
-
-/*ul.horizontal li {
-    display: block;
-    float: left;
-    padding: 0 10px;
-}*/
