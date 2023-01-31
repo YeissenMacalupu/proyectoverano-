@@ -20,9 +20,8 @@ header {
 .sidebar img {
     width: 30px;
     height: 30px;
+    margin-top: 10px;
     ackground-color: aquamarine;
-    margin-right: 10px;
-    float: left;
 }
 
 .sidebar ul a {
