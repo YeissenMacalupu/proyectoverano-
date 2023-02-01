@@ -5,7 +5,6 @@ html {
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 
 
@@ -83,9 +82,10 @@ article {
     display: flex;
     flex-flow: wrap;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
-.container{
+
+.container {
     height: 30rem;
     border: .3rem solid black;
     border-radius: 1rem;
@@ -95,20 +95,18 @@ article {
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
-
 }
-.button-container{
+
+.button-container {
     display: block;
     width: 100%;
     background-color: red;
     border-radius: .5rem;
     padding: .5rem 1rem;
-
 }
 
- .product-container{
+.product-container {
     display: inline-block;
     padding: 0.5rem 1rem;
     border: 1rem solid black;
-
- }
+}
