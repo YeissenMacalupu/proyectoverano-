@@ -14,7 +14,7 @@ header {
     background-color: #fff;
     position: fixed;
     width: 50px;
-    transition: 0.6s;
+    transition: 0.5s;
     idth: 275px;
     height: 100%;
     overflow: hidden;
@@ -63,6 +63,14 @@ ul li:hover a {
 
 .final-service {
     margin-top: 460px;
+}
+
+
+/*  NAV   */
+
+nav {
+    ackground-color: blue;
+    margin-left: 50px;
 }
 
 

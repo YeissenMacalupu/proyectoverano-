@@ -13,11 +13,12 @@ html {
 header {
     background-color: #fff;
     position: fixed;
-    width: 52px;
+    width: 50px;
     transition: 0.6s;
     idth: 275px;
     height: 100%;
     overflow: hidden;
+    border-right: 1px solid rgba(197, 197, 197, 0.45);
 }
 
 header:hover {
@@ -25,8 +26,8 @@ header:hover {
 }
 
 .sidebar img {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     float: left;
 }
@@ -42,7 +43,8 @@ header:hover {
     transition: .4s;
     align-items: center;
     box-sizing: border-box;
-    border: 1px solid rgba(197, 197, 197, 0.45);
+    border-top: 1px solid rgba(197, 197, 197, 0.45);
+    border-bottom: 1px solid rgba(197, 197, 197, 0.45);
 }
 
 .sidebar ul li a .icon {
@@ -60,7 +62,7 @@ ul li:hover a {
 }
 
 .final-service {
-    margin-top: 450px;
+    margin-top: 460px;
 }
 
 
