@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="preload" href="css/normalice.css" as="style">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="preload" href="cs/style.css" as="style">
+    <title>PC COMPUTER</title>
     <link rel="stylesheet" href="/css/style.css">
+    <!-- ICONOS CSS EN LINEA -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <!-- YEISSSEN -->
 <header>
@@ -44,9 +47,16 @@
 
 </header>
 <nav>
-    s
-</nav>
+    <div class="nav-div">
+        <a href=""><img class="logo" src="https://mesajilgamer.com/wp-content/uploads/sites/7/2021/05/logo-mesajil-gamer-221X240.png" alt=""></a>
 
+        <input type="text" placeholder="Buscar productos.." class="buscador">
+        <span class="search">
+            <i class="uil uil-search" id="iconos"></i>
+        </span>
+    </div>
+
+</nav>
 <!-- DIEGO -->
 <article>
 
