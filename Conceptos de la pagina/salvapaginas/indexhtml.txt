@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,32 +12,31 @@
 </head>
 <!-- YEISSSEN -->
 <header>
-
     <div class="sidebar">
         <ul class="horizontal">
             <li>
                 <div class="div-categorias">
-                    <a href="" class="categorias-white"><img class="categorias-white" src="https://img.icons8.com/ios-glyphs/30/null/menu-rounded.png">Categorias</a>
+                    <a href="" class="categorias-white"><img class="icon" src="https://img.icons8.com/ios-glyphs/30/null/menu-rounded.png">Categorias</a>
                 </div>
             </li>
             <li>
-                <a href="" class="a"><img src="https://totemhardware.com.pe/wp-content/uploads/2021/12/011-computer.svg" class="image-categorias" alt=""> Computadoras</a>
+                <a href="" class="a"><img class="icon" src="https://totemhardware.com.pe/wp-content/uploads/2021/12/011-computer.svg" class="image-categorias" alt=""> Computadoras</a>
             </li>
             <li>
-                <a href="" class="a"><img src="https://img.icons8.com/ios-glyphs/30/null/macbook.png" />Laptops</a>
+                <a href="" class="a"><img class="icon" src="https://img.icons8.com/ios-glyphs/30/null/macbook.png" />Laptops</a>
             </li>
             <li>
-                <a href="" class="a"><img src="https://img.icons8.com/ios-glyphs/30/null/monitor.png" />Monitores</a>
+                <a href="" class="a"><img class="icon" src="https://img.icons8.com/ios-glyphs/30/null/monitor.png" />Monitores</a>
             </li>
             <li>
-                <a href="" class="a"><img src="https://img.icons8.com/ios-filled/50/null/video-card.png" />Tarjetas de Video</a>
+                <a href="" class="a"><img class="icon" src="https://img.icons8.com/ios-filled/50/null/video-card.png" />Tarjetas de Video</a>
             </li>
             <li>
-                <a href="" class="a"><img src="https://totemhardware.com.pe/wp-content/uploads/2021/12/036-ram.svg" />Memoria ram</a>
+                <a href="" class="a"><img class="icon" src="https://totemhardware.com.pe/wp-content/uploads/2021/12/036-ram.svg" />Memoria ram</a>
             </li>
             <div class="final-service">
                 <li>
-                    <a href="" class="a"><img src="https://img.icons8.com/ios-filled/50/null/settings.png" />Servicio Tecnico</a>
+                    <a href="" class="a"><img class="icon" src="https://img.icons8.com/ios-filled/50/null/settings.png" />Servicio Tecnico</a>
                 </li>
             </div>
         </ul>
