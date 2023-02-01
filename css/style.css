@@ -97,6 +97,12 @@ article {
     padding: 1rem;
 
 }
+.container a{
+    font-size: 2.5rem; 
+    text-decoration: none;
+    color: white;
+    
+  }
 .button-container{
     display: block;
     width: 100%;
@@ -107,8 +113,10 @@ article {
 }
 
  .product-container{
-    display: inline-block;
     padding: 0.5rem 1rem;
-    border: 1rem solid black;
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: space-around;
 
  }
