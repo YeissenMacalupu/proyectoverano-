@@ -1,3 +1,6 @@
+/* GOOGLE FONTS - POPPINS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Readex+Pro:wght@400;600&family=Roboto+Slab:wght@600&family=Rubik+Puddles&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -66,14 +69,79 @@ ul li:hover a {
 }
 
 
+/*  NAV   */
+
+nav {
+    bckground-color: #4070f4;
+    margin-left: 50px;
+}
+
+.nav-div {
+    padding-top: 10px;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 140px;
+    height: 150px;
+}
+
+.buscador {
+    width: 401px;
+    height: 42px;
+    outline: none;
+    order: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    isplay: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: rgba(180, 180, 180, 0.45);
+}
+
+.search {
+    right: 80px;
+    height: 100%;
+    ackground-color: black;
+}
+
+#iconos {
+    font-size: 26px;
+}
+
+
 /*ARTICLE*/
 
 article {
     height: 50rem;
+    width: auto;
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    height: 30rem;
+    border: .3rem solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 1rem;
+}
+
+.button-container {
+    display: block;
+    width: 100%;
+    background-color: red;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
 }
 
 .product-container {
