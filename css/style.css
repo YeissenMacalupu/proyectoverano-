@@ -64,7 +64,7 @@ ul li:hover a {
 }
 
 .final-service {
-    margin-top: 460px;
+    margin-top: 530px;
 }
 
 
@@ -132,41 +132,42 @@ article {
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
-    
 }
-.container__product--border{
+
+.container__product--border {
     border: .3rem solid black;
     border-color: red;
     border-radius: 1rem;
-
 }
-.container a{
+
+.container a {
     text-decoration: none;
-    color: white; 
+    color: white;
     display: block;
-  }
-.container__button{
+}
+
+.container__button {
     display: block;
-    font-size: 3rem; 
+    font-size: 3rem;
     width: 100%;
     background-color: blue;
     padding: .5rem 1rem;
     border-radius: .5rem;
 }
-.container__button--color{
+
+.container__button--color {
     background-color: red;
-    
 }
 
- .products{
+.products {
     padding: 0.5rem 1rem;
     display: flex;
     flex-flow: nowrap;
     align-items: center;
     justify-content: space-around;
-
 }
-.product{
+
+.product {
     padding: 0.5rem 1rem;
     display: flex;
     flex-flow: nowrap;
@@ -178,13 +179,18 @@ article {
     margin: .2rem;
     text-align: left;
 }
-.product__information{
+
+.product__information {
     width: 100%;
 }
-.product p{
+
+.product p {
     line-height: 1.5;
 }
-.product:hover{
+
+.product:hover {
     box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .4);
     transform: translateY(-3%)
-};
+}
+
+;
