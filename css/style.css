@@ -71,7 +71,7 @@ ul li:hover a {
 /*  NAV   */
 
 nav {
-    background-color: #4070f4;
+    ackground-color: #4070f4;
     margin-left: 50px;
 }
 
@@ -86,13 +86,26 @@ nav {
 
 .nav-div-logo {
     padding-top: 10px;
-    background-color: orange;
+    ackground-color: orange;
 }
 
 .nav-div-search {
     isplay: inline-block;
     margin-left: 10px;
     background-color: red;
+}
+
+.nav-div-contacto {
+    margin-left: 30px;
+    ackground-color: chartreuse;
+}
+
+.nav-div-contacto p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -121,6 +134,11 @@ nav {
     right: 80px;
     height: 100%;
     background-color: black;
+}
+
+#icono-contacto {
+    font-size: 42px;
+    float: left;
 }
 
 #iconos {
