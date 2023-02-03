@@ -121,6 +121,8 @@ article {
     flex-flow: nowrap;
     align-items: center;
     justify-content: space-evenly;
+    width: 97%;
+    float: right;
 }
 
 .container__product {
