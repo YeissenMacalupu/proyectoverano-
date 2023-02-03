@@ -64,19 +64,48 @@ ul li:hover a {
 }
 
 .final-service {
-    margin-top: 460px;
+    margin-top: 545px;
 }
 
 
 /*  NAV   */
 
 nav {
-    background-color: #4070f4;
+    ackground-color: #4070f4;
     margin-left: 50px;
 }
 
-.nav-div {
+
+/*DE MUCHA AYUDA ** */
+
+.nav-contenedor-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div-logo {
     padding-top: 10px;
+    ackground-color: orange;
+}
+
+.nav-div-search {
+    isplay: inline-block;
+    margin-left: 10px;
+    background-color: red;
+}
+
+.nav-div-contacto {
+    margin-left: 30px;
+    ackground-color: chartreuse;
+}
+
+.nav-div-contacto p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -94,9 +123,9 @@ nav {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    isplay: flex;
+    lign-items: center;
+    ustify-content: center;
     border-radius: 5px;
     border-color: rgba(180, 180, 180, 0.45);
 }
@@ -105,6 +134,11 @@ nav {
     right: 80px;
     height: 100%;
     background-color: black;
+}
+
+#icono-contacto {
+    font-size: 42px;
+    float: left;
 }
 
 #iconos {
@@ -134,41 +168,42 @@ article {
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
-    
 }
-.container__product--border{
+
+.container__product--border {
     border: .3rem solid black;
     border-color: red;
     border-radius: 1rem;
-
 }
-.container a{
+
+.container a {
     text-decoration: none;
-    color: white; 
+    color: white;
     display: block;
-  }
-.container__button{
+}
+
+.container__button {
     display: block;
-    font-size: 3rem; 
+    font-size: 3rem;
     width: 100%;
     background-color: blue;
     padding: .5rem 1rem;
     border-radius: .5rem;
 }
-.container__button--color{
+
+.container__button--color {
     background-color: red;
-    
 }
 
- .products{
+.products {
     padding: 0.5rem 1rem;
     display: flex;
     flex-flow: nowrap;
     align-items: center;
     justify-content: space-around;
-
 }
-.product{
+
+.product {
     padding: 0.5rem 1rem;
     display: flex;
     flex-flow: nowrap;
@@ -180,13 +215,18 @@ article {
     margin: .2rem;
     text-align: left;
 }
-.product__information{
+
+.product__information {
     width: 100%;
 }
-.product p{
+
+.product p {
     line-height: 1.5;
 }
-.product:hover{
+
+.product:hover {
     box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .4);
     transform: translateY(-3%)
-};
+}
+
+;
