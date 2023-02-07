@@ -24,6 +24,7 @@ header {
 }
 
 header:hover {
+    osition: relative;
     width: 230px;
 }
 
@@ -71,8 +72,8 @@ ul li:hover a {
 /*  NAV   */
 
 nav {
-    background-color: #4070f4;
-    margin-left: 50px;
+    ackground-color: #4070f4;
+    padding-top: 20px;
 }
 
 
@@ -85,20 +86,56 @@ nav {
     flex-wrap: wrap;
 }
 
+#nav-space {
+    margin-right: 40px;
+}
+
 .nav-div-logo {
-    padding-top: 10px;
-    background-color: orange;
+    ackground-color: orange;
 }
 
 .nav-div-search {
-    display: inline-block;
-    margin-left: 10px;
+    margin-left: 68px;
+    height: 42px;
+    border-radius: 6px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 30px;
+    position: relative;
     background-color: red;
 }
 
+.nav-div-search input {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px 0 45px;
+    outline: none;
+    order: none;
+    border-radius: 6px;
+    border-color: rgba(180, 180, 180, 0.45);
+}
+
+.nav-div-search .search {
+    margin: 2px 0 0 8px;
+    border-radius: 6px 0 0 6px;
+    position: absolute;
+    height: 100%;
+    width: 25px;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-div-contacto {
-    margin-left: 30px;
-    background-color: chartreuse;
+    margin-left: 68px;
+    ackground-color: chartreuse;
 }
 
 .nav-div-contacto p {
@@ -110,12 +147,11 @@ nav {
 }
 
 .logo {
-    margin-left: 20px;
-    width: 140px;
-    height: 150px;
+    width: 110px;
+    height: 120px;
 }
 
-.buscador {
+buscador {
     width: 401px;
     height: 42px;
     outline: none;
@@ -124,17 +160,14 @@ nav {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 3px;
     border-color: rgba(180, 180, 180, 0.45);
 }
 
 .search {
-    right: 80px;
-    height: 100%;
-    background-color: black;
+    ackground-color: rgba(131, 20, 20, 0.45);
 }
 
 #icono-contacto {
@@ -230,4 +263,6 @@ article {
     transform: translateY(-3%)
 }
 
-;
+footer {
+    background-color: aqua;
+}
