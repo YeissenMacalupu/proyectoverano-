@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/normalice.css">
     <link rel="preload" href="cs/style.css" as="style">
     <title>PC COMPUTER</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- ICONOS CSS EN LINEA -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
@@ -47,75 +47,95 @@
 
 </header>
 <nav>
-    <div class="nav-div">
-        <a href=""><img class="logo" src="https://mesajilgamer.com/wp-content/uploads/sites/7/2021/05/logo-mesajil-gamer-221X240.png" alt=""></a>
+    <div class="nav-contenedor-column">
+        <div class="nav-div-logo" id="nav-space">
+            <a href=""><img class="logo" src="https://mesajilgamer.com/wp-content/uploads/sites/7/2021/05/logo-mesajil-gamer-221X240.png" alt=""></a>
+        </div>
 
-        <input type="text" placeholder="Buscar productos.." class="buscador">
-        <span class="search">
+        <div class="nav-div-search" id="nav-space">
+            <input type="text" placeholder="Buscar productos.." class="buscador">
+            <span class="search">
             <i class="uil uil-search" id="iconos"></i>
         </span>
-    </div>
+        </div>
 
+        <div class="nav-div-contacto" id="nav-space">
+            <div class="nav-div-contacto-column">
+
+                <i class="uil uil-user" id="icono-contacto"></i>
+            </div>
+
+            <P>Contacta a un asesor</P>
+            <p>+51 948 231 485</p>
+        </div>
+    </div>
 </nav>
 <!-- DIEGO -->
-<article>
+<article class="container">
 
-    <div class="container">        
-        <a class="button-container" href="#">Oferta</a>
+    <div class="container__product container__product--border ">
+        <div class="container__button container__button--color">
+            <a href="#">Oferta</a>
+        </div>
 
         <div class="product">
-        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width= "200rem">
-        <div>
-            <h4>Producto</h4>
-            <p>precio</p>
-        </div>
+            <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+            <div class="product__information">
+                <h4>Producto </h4>
+                <p>precio</p>
+            </div>
         </div>
 
     </div>
 
-    <div class="container">
-
-        <a class="button-container" href="#">Nuevos ingresos (Ver mas) -></a>
-
-        <div class="product-container">
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width= "200rem">
-                <div>
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width= "200rem">
-                <div>
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width= "200rem">
-                <div>
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width= "200rem">
-                <div>
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
+    <div class="container__product">
+        <div class="container__button">
+            <a href="#">Nuevos ingresos (Ver mas) -></a>
 
         </div>
 
-        
+        <div class="products">
+            <div class="product">
+                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                <div class="product__information">
+                    <h4>Producto</h4>
+                    <p>precio</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                <div class="product__information">
+                    <h4>Producto</h4>
+                    <p>precio</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                <div class="product__information">
+                    <h4>Producto</h4>
+                    <p>precio</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                <div class="product__information">
+                    <h4>Producto</h4>
+                    <p>precio</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
     </div>
 </article>
 
 <!-- ESTA PARTE SE HARA AL FINAL -->
 <footer>
-
+    <div>
+        gola
+    </div>
 </footer>
 </body>
 
