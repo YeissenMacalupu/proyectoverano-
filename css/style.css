@@ -9,11 +9,12 @@ html {
     padding: 0px;
     margin: 0px;
 }
-body{
 
-    font-family: Arial,Helvetica,sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
 }
+
 
 /*  HEADER  */
 
@@ -28,7 +29,6 @@ header {
 }
 
 header:hover {
-    osition: relative;
     width: 230px;
 }
 
@@ -127,7 +127,7 @@ nav {
 .nav-div-search .search {
     margin: 2px 0 0 8px;
     border-radius: 6px 0 0 6px;
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 25px;
     left: 0;
@@ -185,23 +185,27 @@ buscador {
 
 
 /*ARTICLE*/
-article{
-    height: auto;
-    width: 96%;
-    float: right;
+
+article {
+    width: 100%;
+    loat: right;
+    ackground-color: #333;
 }
+
 .container {
     height: 35rem;
-    float: right;
+    loat: right;
     display: flex;
     flex-flow: nowrap;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
 }
+
 .container a {
     text-align: center;
-} 
+}
+
 .container__product {
     height: 30rem;
     border-radius: 1rem;
@@ -212,7 +216,6 @@ article{
     justify-content: space-around;
     padding: 1rem;
     margin: 1rem;
-    
 }
 
 .container__product--border {
@@ -235,6 +238,7 @@ article{
     padding: .5rem 1rem;
     border-radius: .5rem;
 }
+
 .separator {
     display: flex;
     flex-flow: nowrap;
@@ -242,6 +246,7 @@ article{
     justify-content: space-evenly;
     width: 100%;
 }
+
 .separator2 {
     display: flex;
     flex-flow: nowrap;
@@ -251,22 +256,25 @@ article{
     width: 100%;
     margin: .5rem;
 }
-hr{
+
+hr {
     color: blue;
     size: 2;
 }
-.container__separator{
+
+.container__separator {
     width: 80%;
     margin-left: 1rem;
 }
+
 .container__button--color {
     background-color: red;
 }
-.container__button--small{
+
+.container__button--small {
     float: left;
     width: 20%;
 }
-
 
 .container__products {
     padding: 0.5rem 1rem;
@@ -289,19 +297,23 @@ hr{
     margin: .2rem;
     text-align: left;
 }
-.container__element--circle{
+
+.container__element--circle {
     border-radius: 100%;
 }
-.container__element--circle img{
+
+.container__element--circle img {
     height: 100%;
     width: 100%;
     border-radius: 100%;
 }
+
 .product__information {
     width: 100%;
     margin-top: .5rem;
 }
-.product__information--circle{
+
+.product__information--circle {
     text-align: center;
 }
 
@@ -314,4 +326,29 @@ hr{
     transform: translateY(-3%)
 }
 
-;
+
+/* FOOTER */
+
+footer {
+    background-color: #4070f4;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.footer-contenedor-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-div-detalles {
+    width: 1017px;
+    height: 254px;
+    background-color: rgb(242, 242, 242);
+    margin-left: 380px;
+}
+
+.footer-div {
+    background-color: burlywood;
+}
