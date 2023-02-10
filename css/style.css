@@ -337,7 +337,7 @@ footer {
 
 .footer-contenedor-column {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -350,5 +350,6 @@ footer {
 }
 
 .footer-div {
+    margin-top: 20px;
     background-color: burlywood;
 }
