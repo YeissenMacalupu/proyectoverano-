@@ -1,0 +1,8 @@
+mongodb+srv://proyectoverano:proyectoverano123@proyectoverano.dxq7gjb.mongodb.net/test
+
+db.getCollection('pantallas').insertOne({
+  _id: ObjectId('63ebbc916796f80c34fab9e9'),
+  nombre: 'ASUS VZ279HE-W',
+  precio: '1200',
+  unidad: '2'
+});
