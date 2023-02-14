@@ -333,18 +333,18 @@ hr {
 /* FOOTER */
 
 footer {
-    background-color: #4070f4;
+    ackground-color: #4070f4;
     margin-left: 5rem;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.45);
 }
 
 .footer-contenedor-column {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
 }
 
-.footer-div-detalles {
+footer-div-detalles {
     width: 1017px;
     height: 254px;
     background-color: rgb(242, 242, 242);
@@ -352,6 +352,43 @@ footer {
 }
 
 .footer-div {
-    margin-top: 20px;
-    background-color: burlywood;
+    margin-top: 30px;
+    ackground-color: burlywood;
+}
+
+#footer-icon-social {
+    font-size: 24px;
+}
+
+.footer-column-social {
+    display: flex;
+    align-items: center;
+    flex-flow: nowrap;
+}
+
+.footer-column-social p a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+.footer-title-social {
+    ackground-color: aqua;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.footer-quienes {
+    margin-bottom: 5px;
+}
+
+.footer-quienes a {
+    text-decoration: none;
+    color: black;
+}
+
+.final {
+    text-align: center;
 }

@@ -65,78 +65,306 @@
                 <i class="uil uil-user" id="icono-contacto"></i>
             </div>
 
-            <P>Contacta a un asesor</P>
+            <P>Contaaaaacta a un asesor</P>
             <p>+51 948 231 485</p>
         </div>
     </div>
 </nav>
 <!-- DIEGO -->
-<article class="container">
+<article>
+    <div class="container">
+        <div class="container__product container__product--border ">
+            <div class="container__button container__button--color">
+                <a href="#">Oferta</a>
+            </div>
 
-    <div class="container__product container__product--border ">
-        <div class="container__button container__button--color">
-            <a href="#">Oferta</a>
+            <div class="container__element">
+                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                <div class="product__information">
+                    <h4>Producto </h4>
+                    <p>precio</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="product">
-            <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
-            <div class="product__information">
-                <h4>Producto </h4>
-                <p>precio</p>
+        <div class="container__product">
+            <div class="container__button">
+                <a href="#">Nuevos ingresos (Ver mas) -></a>
+
+            </div>
+
+            <div class="container__products">
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="container__product">
+            <div class="container__button">
+                <a href="#">Categorias destacadas</a>
+
+            </div>
+
+            <div class="container__products">
+                <div class="separator2">
+                    <div class=" container__element container__element--circle">
+                        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+
+                    </div>
+                    <div class="product__information product__information--circle">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="separator2">
+                    <div class=" container__element container__element--circle">
+                        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+
+                    </div>
+                    <div class="product__information product__information--circle">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="separator2">
+                    <div class=" container__element container__element--circle">
+                        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+
+                    </div>
+                    <div class="product__information product__information--circle">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="separator2">
+                    <div class=" container__element container__element--circle">
+                        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+
+                    </div>
+                    <div class="product__information product__information--circle">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="separator2">
+                    <div class=" container__element container__element--circle">
+                        <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+
+                    </div>
+                    <div class="product__information product__information--circle">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-
     </div>
 
-    <div class="container__product">
-        <div class="container__button">
-            <a href="#">Nuevos ingresos (Ver mas) -></a>
+    <div class="container">
+        <div class="container__product">
+            <div class="separator">
+                <div class="container__button container__button--small">
+                    <a href="#">Tarjeta de video</a>
 
+                </div>
+                <div class="container__separator">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="container__products">
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="container__product">
+            <div class="separator">
+                <div class="container__button container__button--small">
+                    <a href="#">Zona Gamer </a>
 
-        <div class="products">
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
-                <div class="product__information">
-                    <h4>Producto</h4>
-                    <p>precio</p>
                 </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
-                <div class="product__information">
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
-                <div class="product__information">
-                    <h4>Producto</h4>
-                    <p>precio</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
-                <div class="product__information">
-                    <h4>Producto</h4>
-                    <p>precio</p>
+                <div class="container__separator">
+                    <hr>
+
                 </div>
             </div>
 
+            <div class="container__products">
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
+                <div class="container__element">
+                    <img src="https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/k/6k503la_2w924aa.png" alt="" width="200rem">
+                    <div class="product__information">
+                        <h4>Producto</h4>
+                        <p>precio</p>
+                    </div>
+                </div>
 
+
+
+            </div>
         </div>
-
-
     </div>
 </article>
 
 <!-- ESTA PARTE SE HARA AL FINAL -->
 <footer>
-    <div>
-        gola
+    <div class="footer-div-detalles">
     </div>
+    <div class="footer-contenedor-column">
+        <div class="footer-div" id="footer-div-1">
+            <p class="footer-title-social"> ¿Quienes somos?</p>
+            <p class="footer-quienes"> <a href="">Quienes somos</a></p>
+            <p class="footer-quienes"> <a href="">Ubicaciones</a></p>
+            <p class="footer-quienes"> <a href="">Marcas</a></p>
+
+        </div>
+        <div class="footer-div" id="footer-div-2">
+
+            <p class="footer-title-social">Contactanos</p>
+            <div class="footer-column-social">
+                <i class="uil uil-whatsapp-alt" id="footer-icon-social" style="color: green;"></i>
+                <p><a href="#">+51 948 231 485</a></p>
+
+            </div>
+            <div class="footer-column-social">
+                <i class="uil uil-phone" id="footer-icon-social">     
+                </i>
+                <p><a href="#">01 716 1901</a></p>
+            </div>
+
+        </div>
+        <div class="footer-div" id="footer-div-3">
+            <p class="footer-title-social">Redes sociales</p>
+            <div class="footer-column-social">
+                <i class="uil uil-facebook" id="footer-icon-social" style="color: blue;"></i>
+                <p><a href="#">Facebook</a></p>
+            </div>
+            <div class="footer-column-social">
+                <i class="uil uil-instagram-alt" id="footer-icon-social" style="color: brown;"></i>
+                <p><a href="#">Instagram</a></p>
+            </div>
+
+            <div class="footer-column-social">
+                <i class="uil uil-twitter" id="footer-icon-social" style="color: deepskyblue;"></i>
+                <p><a href="#">Twitter</a></p>
+            </div>
+        </div>
+        <div class="footer-div" id="footer-div-4">
+            <p class="footer-title-social">Terminos y condiciones</p>
+            <div class="footer-column-social">
+                <i class="uil uil-book" id="footer-icon-social"></i>
+                <p><a href="#">Reclamaciones</a></p>
+            </div>
+            <div class="footer-column-social">
+                <i class="uil uil-truck" id="footer-icon-social"></i>
+                <p><a href="#">Envios</a></p>
+            </div>
+        </div>
+    </div>
+    <br>
 </footer>
+<br>
+
+<p class="final">© Perifericos 2023</p>
+
+<br>
+
 </body>
 
 </html>
