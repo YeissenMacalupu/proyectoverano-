@@ -190,16 +190,16 @@ nav {
 /*ARTICLE*/
 
 article {
-    width: 100%;
+    height: auto;
+    width: auto;
     float: right;
     background-color: #333;
 }
 
 .container {
-    height: 35rem;
     float: right;
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
     width: 96%;
@@ -210,10 +210,9 @@ article {
 }
 
 .container__product {
-    height: 30rem;
     border-radius: 1rem;
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: row nowrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -252,11 +251,11 @@ article {
 
 .separator2 {
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: auto;
     margin: .5rem;
 }
 
@@ -282,7 +281,7 @@ hr {
 .container__products {
     padding: 0.5rem 1rem;
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     align-items: center;
     justify-content: space-around;
     margin: .5rem;
@@ -306,8 +305,7 @@ hr {
 }
 
 .container__element--circle img {
-    height: 100%;
-    width: 100%;
+
     border-radius: 100%;
 }
 
