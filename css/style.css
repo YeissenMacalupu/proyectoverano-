@@ -79,7 +79,6 @@ ul li:hover a {
 /*  NAV   */
 
 nav {
-    background-color: #4070f4;
     padding-top: 20px;
 }
 
@@ -97,9 +96,7 @@ nav {
     margin-right: 40px;
 }
 
-.nav-div-logo {
-    background-color: orange;
-}
+.nav-div-logo {}
 
 .nav-div-search {
     margin-left: 68px;
@@ -109,7 +106,6 @@ nav {
     width: 100%;
     margin: 0 30px;
     position: relative;
-    background-color: red;
 }
 
 .nav-div-search input {
@@ -142,7 +138,6 @@ nav {
 
 .nav-div-contacto {
     margin-left: 68px;
-    background-color: chartreuse;
 }
 
 .nav-div-contacto p {
@@ -173,10 +168,6 @@ nav {
     border-color: rgba(180, 180, 180, 0.45);
 }
 
-.search {
-    background-color: rgba(131, 20, 20, 0.45);
-}
-
 #icono-contacto {
     font-size: 42px;
     float: left;
@@ -193,19 +184,13 @@ article {
     height: auto;
     width: auto;
     float: right;
-    background-color: #333;
 }
 
 .container {
     float: right;
     display: flex;
-<<<<<<< HEAD
-    flex-flow: nowrap;
-    lign-items: center;
-=======
     flex-flow: row wrap;
-    align-items: center;
->>>>>>> 667f3fb0780cd40c41b5e1391f0492f9e5abf814
+    lign-items: center;
     justify-content: space-evenly;
     width: 96%;
 }
@@ -310,7 +295,6 @@ hr {
 }
 
 .container__element--circle img {
-
     border-radius: 100%;
 }
 
@@ -337,7 +321,7 @@ hr {
 
 footer {
     ackground-color: #4070f4;
-    margin-left: 5rem;
+    margin-left: 80px;
     border-bottom: 1px solid rgba(197, 197, 197, 0.45);
 }
 
@@ -345,13 +329,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-footer-div-detalles {
-    width: 1017px;
-    height: 254px;
-    background-color: rgb(242, 242, 242);
-    margin-left: 380px;
 }
 
 .footer-div {
